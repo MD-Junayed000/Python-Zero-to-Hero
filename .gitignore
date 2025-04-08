@@ -1,0 +1,17 @@
+# Ignore virtual environment
+.venv/
+
+# Ignore PyCharm settings (optional)
+.idea/
+
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+
+# Backup files
+*.bak
+*.swp
+
+
+.idea/
+
