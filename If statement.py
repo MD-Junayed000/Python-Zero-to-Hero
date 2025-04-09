@@ -37,4 +37,18 @@ if sale: #if True then execute
 else:
     print("Baalllll")
 
+# Python Calculator
 
+weight=float(input("Enter weight: "))
+unit= input("Kilograms or pounds? (k or l): ")
+
+if unit=="k":
+    weight*=2.205
+    unit="Lbs"
+elif unit=="l":
+    weight/=2.205
+    unit="kgs"
+else:
+    print(f"{unit} was not valid")
+
+print(f"Your weight is : {round(weight,2)} {unit}")
