@@ -39,3 +39,21 @@ print(f'odd is {odd}')
 
 ################################################
 
+
+
+
+
+def day_of_week(day):
+    if day==1:
+        print('Sunday')
+
+    elif day==6:
+        print('JUNu')
+
+    else:
+        print('not in calender')
+
+print(day_of_week(4))
+
+#  or ======= |
+
