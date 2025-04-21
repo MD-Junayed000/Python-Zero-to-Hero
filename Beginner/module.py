@@ -6,7 +6,8 @@ print(help("modules"))
 
 print(help('math'))
 
-import example ## in different folder
+from Beginner import example
+
 print(example.pi)
 
 print(f'cude is: {example.cube(2)}')
