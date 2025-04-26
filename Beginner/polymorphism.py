@@ -50,3 +50,54 @@ for shape in shapes:
 
 
 ##################################################
+# Duck typing== Another way to achieve polymorphism besides inhertance
+#               object must have the minimum necessary attributes / methods
+
+#              'If it looks like a duck and quacks like a duck,it is a duck
+
+class Animal:
+    alive= True
+
+class Dog(Animal):
+    def speak(self):
+        print('Woof!')
+
+class Cat(Animal):
+        def speak(self):
+            print('Meow!')
+class Car:
+    def horn(self):
+        print('HONK!')
+
+
+animals =[Dog(),Cat(),Car()] ## CAr really doesnot belong here
+
+for animal in animals:
+    animal.speak()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
