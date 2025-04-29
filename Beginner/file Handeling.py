@@ -59,7 +59,7 @@ with open(file_path,'w') as file:
     json.dump(employees,file)
     print(f"json file '{file_path}' was created")
 
-    print(f"txt file '{file_path}' was created")
+
 
 
 ### writing CSv file
