@@ -1,5 +1,7 @@
 # super() = Function used in a child class to call methods from a parent class (superclass).
 #           Allows you to extend the functionality of the inherited methods
+#           Function used to give access to the methods of a parent class.
+
 
 
 import math
@@ -17,7 +19,7 @@ class Shape:
 
 class Circle(Shape):
     def __init__(self, color, is_filled,radius):
-         super().__init__(color,is_filled)
+         super().__init__(color,is_filled) ########
          self.radius=radius
 
     def describe(self):
@@ -37,3 +39,18 @@ circle=Circle('red',True,5)
 print(circle.color)
 
 circle.describe()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

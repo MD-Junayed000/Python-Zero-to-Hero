@@ -27,6 +27,27 @@ print(employee1.get_info())
 #######################################################################
 print('#################################################')
 
+## Static is when no Instances is required in class
+
+class Math:
+    def __init__(self,num):
+        self.num=num
+
+    def addtonum(self,n):
+        self.num=self.num +n
+
+    @staticmethod
+    def add(a,b):
+        return a+b
+
+print(f'addition is {Math.add(1,2)}')
+
+a=Math(5)###num e jabe
+print(a.num)
+a.addtonum(6)
+print(a.num)
+
+
 # Class Method == Allow operation related to the class itself
 #                  take (cls) as the first parameter, which represent the class itself
 

@@ -20,3 +20,16 @@ except Exception:
 
 finally:
     print('Do some clean up here')
+
+
+### Raise Custom Error
+
+a=int(input('Enter a Value between 5 to 9: '))
+
+if (a<5 or a>9):
+    raise ValueError('You have enter value that is out of range')
+
+
+
+
+
